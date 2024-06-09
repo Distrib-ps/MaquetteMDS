@@ -11,7 +11,7 @@
 <body class="">
   <div class="mx-12">
     <header class="my-4">
-      <div class="flex justify-between py-4 text-sm">
+      <div class="hidden md:flex justify-between py-4 text-sm">
         <p class="text-slate-600">Espace étudiant :</p>
         <nav class="flex flex-row justify-center items-center gap-12">
           <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Intranet</a>
@@ -26,10 +26,10 @@
         </nav>
 
       </div>
-      <div class="w-full bg-slate-500/50 h-[1px] "></div>
+      <div class="hidden md:block w-full bg-slate-500/50 h-[1px] "></div>
       <div class="flex flex-row justify-between items-center py-4 px-4 ">
         <img src="./images/logo.svg" alt="Logo de My Digital School" class="pr-8 border-r border-slate-500/50">
-        <div class="flex flex-row gap-6">
+        <div class="hidden md:flex flex-row gap-6">
           <nav class="flex justify-center items-center border-r border-slate-500/50 px-8">
             <ul class="flex flex-row gap-12 uppercase text-base">
               <li><a href="#" class=" hover:underline hover:cursor-pointer">Accueil</a></li>
@@ -43,50 +43,51 @@
               !</button>
           </div>
         </div>
+        <img src="./images/hamburger.svg" alt="Menu" class="block md:hidden">
       </div>
     </header>
     <main class>
       <section>
         <div class="flex flex-row items-start gap-16">
-          <div class="flex flex-col gap-4 mt-16">
+          <div class="hidden md:flex flex-col gap-4 mt-16">
             <img src="./images/Facenook_gray.svg" alt="Logo Facebook" width="24" height="24">
             <img src="./images/Instagram_gray.svg" alt="Logo Instagram" width="24" height="24">
             <img src="./images/LinkedIn_gray.svg" alt="Logo LinkedIn" width="24" height="24">
             <img src="./images/YouTube_gray.svg" alt="Logo YouTube" width="24" height="24">
           </div>
-          <div class="aspect-square rounded-xl overflow-hidden">
+          <div class="aspect-square rounded-xl overflow-hidden w-full md:w-auto">
             <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;"
               alt="Image montrant un salle informatique avec pleins d'ordis" width="600" height="600">
           </div>
-          <div class="flex flex-col gap-10 items-start my-auto">
-            <h1 class="font-bold text-4xl uppercase">L'école des <br> métiers du <span
-                class="text-[#2FB8C5]">digital</span></h1>
-            <p class="max-w-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          <div class="absolute top-80 left-16 md:static md:flex flex-col gap-10 items-start my-auto">
+            <h1 class="text-white md:text-black font-bold text-2xl md:text-4xl uppercase">L'école des <br> métiers du <span
+                class="md:text-[#2FB8C5]">digital</span></h1>
+            <p class="hidden md:block max-w-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.</p>
             <button
-              class="bg-[#2FB8C5] py-1 px-4 rounded-full text-white text-base font-semibold hover:bg-[#2FB8C5]/80">Rejoignez-nous
+              class="mt-4 md:mt-0 bg-[#2FB8C5] py-1 px-4 rounded-full text-white text-base font-semibold hover:bg-[#2FB8C5]/80">Rejoignez-nous
               !</button>
           </div>
         </div>
         <div class="flex justify-center items-center">
-          <div class="grid grid-cols-4 gap-5 mt-16">
-            <div class="flex flex-col justify-center items-center bg-[#D5D5D5] p-12 rounded-lg w-72 h-72">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 mt-16">
+            <div class="flex flex-col justify-center items-center bg-[#D5D5D5] p-12 rounded-lg  md:w-72 md:h-72">
               <span class="text-[#2FB8C5] text-4xl font-bold">22</span>
               <p class="text-sm text-[#3D3D3C] max-w-10 text-center">Certifications professionnelles</p>
             </div>
 
-            <div class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-lg w-72 h-72">
+            <div class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-lg md:w-72 md:h-72">
               <span class="text-[#2FB8C5] text-4xl font-bold">65%</span>
               <p class="text-sm text-[#3D3D3C]">Labels et certifications</p>
             </div>
 
-            <div class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-lg w-72 h-72">
+            <div class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-lg md:w-72 md:h-72">
               <span class="text-[#2FB8C5] text-4xl font-bold">15</span>
               <p class="text-sm text-[#3D3D3C]">Taux d’insertion post diplôme</p>
             </div>
 
-            <div class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-lg w-72 h-72">
+            <div class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-lg md:w-72 md:h-72">
               <span class="text-[#2FB8C5] text-4xl font-bold">2200</span>
               <p class="text-sm text-[#3D3D3C]">Entreprises partenaires</p>
             </div>
@@ -101,33 +102,33 @@
             <br>
             <span class="font-bold">SECTEURS</span>
           </h2>
-          <button class=" px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir</button>
+          <button class="hidden md:block px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir</button>
         </div>
-        <div class="grid grid-cols-4 gap-8 w-full font-semibold mt-4">
-          <div>
-            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer">
-              <img src="./images/e-business.png" alt="Image représentant le e-business">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full font-semibold mt-4">
+          <div class="">
+            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#FFBD1D]">
+              <img src="./images/e-business.png" alt="Image représentant le e-business" class="opacity-45">
             </div>
             <p class="text-center mt-2">E-business</p>
           </div>
 
-          <div>
-            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer">
-              <img src="./images/webdesign.png" alt="Image représentant le e-business">
+          <div class="">
+            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#F76FAF]">
+              <img src="./images/webdesign.png" alt="Image représentant le e-business" class="opacity-45">
             </div>
             <p class="text-center mt-2">Création numérique et web-design</p>
           </div>
 
-          <div>
-            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer">
-              <img src="./images/webmarketing.png" alt="Image représentant le e-business">
+          <div class="">
+            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#70D467]">
+              <img src="./images/webmarketing.png" alt="Image représentant le e-business" class="opacity-45">
             </div>
             <p class="text-center mt-2">Marketing digitale</p>
           </div>
 
-          <div>
-            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer">
-              <img src="./images/webdevelopper.png" alt="Image représentant le e-business">
+          <div class="">
+            <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#5199E3]">
+              <img src="./images/webdevelopper.png" alt="Image représentant le e-business" class="opacity-45">
             </div>
             <p class="text-center mt-2">Développement web</p>
           </div>
@@ -136,8 +137,36 @@
 
       <section class="flex flex-col items-center justify-center py-10">
         <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
-            <div>
+          <div class="flex flex-col md:flex-row gap-16">
+            
+            <!-- NOS CAMPUS Section -->
+            <div class="order-1 md:order-2 md:bg-[#EAF9F9] p-8 rounded-md w-full md:w-1/2">
+              <div class="relative mb-10">
+                <h2 class="text-4xl">
+                  <span class="italic">NOS</span>
+                  <br class="hidden md:inline">
+                  <span class="font-bold">CAMPUS</span>
+                </h2>
+              </div>
+              <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+                <span class="px-4 py-2 rounded-full text-center border border-black">Paris</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Toulouse</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Grenoble</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Lyon</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Nice</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Montpellier</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Annecy</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Melun</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">Lille</span>
+                <span class="px-4 py-2 rounded-full text-center border border-black">...</span>
+              </div>
+              <div class="flex justify-center md:justify-start">
+                <button class="px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir les campus</button>
+              </div>
+            </div>
+      
+            <!-- NOTRE ÉQUIPE Section -->
+            <div class="order-2 md:order-1 w-full md:w-1/2">
               <div class="relative mb-10">
                 <h2 class="text-4xl">
                   <span class="italic">NOTRE</span>
@@ -146,7 +175,7 @@
                 </h2>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="flex items-center gap-4 p-4 bg-white rounded-md shadow-lg">
+                <div class="order-last md:order-first flex items-center gap-4 p-4 bg-white rounded-md shadow-lg">
                   <img src="./images/profile1.png" alt="Emilie Mory" class="w-16 h-16 rounded-full">
                   <div>
                     <h3 class="font-bold">Emilie Mory</h3>
@@ -168,38 +197,16 @@
                   </div>
                 </div>
               </div>
-              <div class="flex justify-start mt-8">
+              <div class="flex justify-center md:justify-start mt-8">
                 <button class="px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir toute l'équipe</button>
               </div>
             </div>
-    
-            <div class="bg-[#EAF9F9] p-8 rounded-md">
-              <div class="relative mb-10">
-                <h2 class="text-4xl">
-                  <span class="italic">NOS</span>
-                  <br>
-                  <span class="font-bold">CAMPUS</span>
-                </h2>
-              </div>
-              <div class="grid grid-cols-3 gap-4 mb-8">
-                <span class="px-4 py-2 rounded-full text-center border border-black">Paris</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Toulouse</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Grenoble</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Lyon</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Nice</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Montpellier</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Annecy</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Melun</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">Lille</span>
-                <span class="px-4 py-2 rounded-full text-center border border-black">...</span>
-              </div>
-              <div class="flex justify-start">
-                <button class="px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir les campus</button>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
+      
+      
       <section class="flex flex-col py-10 mt-28">
         <div class="flex flex-col items-start justify-center gap-8 z-20 px-8">
           <h2 class="text-4xl">
