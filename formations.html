@@ -1,217 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>My Digital School</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/icon.png" type="image/x-icon">
+    <title>My Digital School - Formations</title>
+  </head>
 
-<body class="">
-  <div class="mx-12">
-    <header class="my-4">
-      <div class="hidden md:flex justify-between py-4 text-sm">
-        <p class="text-slate-600">Espace étudiant :</p>
-        <nav class="flex flex-row justify-center items-center gap-12">
-          <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Intranet</a>
-          <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Hyperplanning</a>
-          <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Eduservices</a>
-          <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Métiers</a>
-          <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Actualités</a>
-          <a href="#" class="text-slate-600 hover:underline hover:text-slate-700">Contact</a>
-          <div class="text-[#2FB8C5]">
-            <p class="font-semibold">Fr</p>
-          </div>
-        </nav>
-
-      </div>
-      <div class="hidden md:block w-full bg-slate-500/50 h-[1px] "></div>
-      <div class="flex flex-row justify-between items-center py-4 px-4 ">
-        <img src="./images/logo.svg" alt="Logo de My Digital School" class="pr-8 border-r border-slate-500/50">
-        <div class="hidden md:flex flex-row gap-6">
-          <nav class="flex justify-center items-center border-r border-slate-500/50 px-8">
-            <ul class="flex flex-row gap-12 uppercase text-base">
-              <li><a href="#" class=" hover:underline hover:cursor-pointer">Accueil</a></li>
-              <li><a href="#" class=" hover:underline hover:cursor-pointer">Formations</a></li>
-              <li><a href="#" class=" hover:underline hover:cursor-pointer">My Digital School</a></li>
-              <li><a href="#" class=" hover:underline hover:cursor-pointer">Alternance</a></li>
-            </ul>
+  <body class>
+    <div class="mx-12">
+      <header class="my-4  bg-white">
+        <div class="hidden md:flex justify-between py-4 text-sm">
+          <p class="text-slate-600">Espace étudiant :</p>
+          <nav class="flex flex-row justify-center items-center gap-12">
+            <a href="#"
+              class="text-slate-600 hover:underline hover:text-slate-700">Intranet</a>
+            <a href="#"
+              class="text-slate-600 hover:underline hover:text-slate-700">Hyperplanning</a>
+            <a href="#"
+              class="text-slate-600 hover:underline hover:text-slate-700">Eduservices</a>
+            <a href="#"
+              class="text-slate-600 hover:underline hover:text-slate-700">Métiers</a>
+            <a href="#"
+              class="text-slate-600 hover:underline hover:text-slate-700">Actualités</a>
+            <a href="#"
+              class="text-slate-600 hover:underline hover:text-slate-700">Contact</a>
+            <div class="text-[#2FB8C5]">
+              <p class="font-semibold">Fr</p>
+            </div>
           </nav>
-          <div>
-            <button class="bg-[#2FB8C5] py-1 px-8 rounded-full text-white text-base hover:bg-[#2FB8C5]/80">Je candidate
-              !</button>
-          </div>
+
         </div>
-        <img src="./images/hamburger.svg" alt="Menu" class="block md:hidden">
-      </div>
-    </header>
-    <main>
-      <section class="mb-24">
-        <div class="flex flex-row items-start gap-16">
-          <div class="hidden md:flex flex-col gap-4 mt-16">
-            <img src="./images/Facenook_gray.svg" alt="Logo Facebook" width="60" height="60">
-            <img src="./images/Instagram_gray.svg" alt="Logo Instagram" width="60" height="60">
-            <img src="./images/LinkedIn_gray.svg" alt="Logo LinkedIn" width="60" height="60">
-            <img src="./images/YouTube_gray.svg" alt="Logo YouTube" width="60" height="60">
+        <div class="hidden md:block w-full bg-slate-500/50 h-[1px] "></div>
+        <div class="flex flex-row justify-between items-center py-4 px-4 ">
+          <img src="./images/logo.svg" alt="Logo de My Digital School"
+            class="pr-8 border-r border-slate-500/50 h-16 w-auto">
+          <div class="hidden md:flex flex-row gap-6">
+            <nav
+              class="flex justify-center items-center border-r border-slate-500/50 px-8">
+              <ul class="flex flex-row gap-12 uppercase text-base">
+                <li><a href="index.html"
+                    class=" hover:underline hover:cursor-pointer">Accueil</a></li>
+                <li><a href="formations.html"
+                    class=" hover:underline hover:cursor-pointer">Formations</a></li>
+                <li><a href="#" class=" hover:underline hover:cursor-pointer">My
+                    Digital School</a></li>
+                <li><a href="#"
+                    class=" hover:underline hover:cursor-pointer">Alternance</a></li>
+              </ul>
+            </nav>
+            <div>
+              <button
+                class="bg-[#2FB8C5] py-2 px-8 rounded-full text-white text-base hover:bg-[#2FB8C5]/80">Je
+                candidate
+                !</button>
+            </div>
           </div>
-          <div class="flex flex-col gap-16">
+          <img src="./images/hamburger.svg" alt="Menu" class="block md:hidden">
+        </div>
+      </header>
+      <main>
+        <section class="w-full m-auto flex ">
+          <div class="hidden md:flex flex-col gap-4 mt-28 fixed">
+            <img src="./images/Facenook_gray.svg" alt="Logo Facebook" width="16"
+              height="16">
+            <img src="./images/Instagram_gray.svg" alt="Logo Instagram"
+              width="16" height="16">
+            <img src="./images/LinkedIn_gray.svg" alt="Logo LinkedIn" width="16"
+              height="16">
+            <img src="./images/YouTube_gray.svg" alt="Logo YouTube" width="16"
+              height="16">
+          </div>
+          <div class="flex flex-col gap-16 m-auto">
             <h2 class="text-4xl uppercase">
               <span class="italic">NOS</span>
               <br>
               <span class="font-bold">FORMATIONS</span>
             </h2>
             <ul class="flex flex-row gap-5 text-xl flex-wrap">
-              <li class="text-[#2FB8C5] border-b-2 border-[#2FB8C5] pb-[2px] hover:cursor-pointer">Toutes</li>
-              <li class="hover:text-[#FFBD1D] hover:cursor-pointer">e-Business</li>
-              <li class="hover:text-[#F76FAF] hover:cursor-pointer">Web Design</li>
-              <li class="hover:text-[#70D467] hover:cursor-pointer">Marketing</li>
-              <li class="hover:text-[#5199E3] hover:cursor-pointer">Développement</li>
+              <li
+                class="text-[#2FB8C5] border-b-2 border-[#2FB8C5] pb-[2px] hover:cursor-pointer">Toutes</li>
+              <li
+                class="hover:text-[#FFBD1D] hover:cursor-pointer">e-Business</li>
+              <li class="hover:text-[#F76FAF] hover:cursor-pointer">Web
+                Design</li>
+              <li
+                class="hover:text-[#70D467] hover:cursor-pointer">Marketing</li>
+              <li
+                class="hover:text-[#5199E3] hover:cursor-pointer">Développement</li>
             </ul>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
               <div class="flex flex-col gap-5 items-start">
-                <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#70D467]">
-                  <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;" alt="Image représentant le e-business" class="opacity-45">
+                <div
+                  class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#70D467]">
+                  <img src="./images/hero_landing.png"
+                    style="aspect-ratio: 500/500; object-fit: cover;"
+                    alt="Image représentant le e-business" class="opacity-45">
                 </div>
                 <p class="mt-2 font-bold text-xl">Bachelor e-Commerce</p>
-                <button class="font-semibold py-2 px-6 rounded-full bg-white border border-[#70D467] text-[#70D467] hover:text-white hover:bg-[#70D467] transition-colors duration-300">En savoir plus</button>
+                <button
+                  class="font-semibold py-2 px-6 rounded-full bg-white border border-[#70D467] text-[#70D467] hover:text-white hover:bg-[#70D467] transition-colors duration-300">En
+                  savoir plus</button>
               </div>
               <div class="flex flex-col gap-5 items-start">
-                <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#F76FAF]">
-                  <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;" alt="Image représentant le e-business" class="opacity-45">
+                <div
+                  class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#F76FAF]">
+                  <img src="./images/hero_landing.png"
+                    style="aspect-ratio: 500/500; object-fit: cover;"
+                    alt="Image représentant le e-business" class="opacity-45">
                 </div>
-                <p class="mt-2 font-bold text-xl">Bachelor Création numérique</p>
-                <button class="font-semibold py-2 px-6 rounded-full bg-white border border-[#F76FAF] text-[#F76FAF] hover:text-white hover:bg-[#F76FAF] transition-colors duration-300">En savoir plus</button>
+                <p class="mt-2 font-bold text-xl">Bachelor Création
+                  numérique</p>
+                <button
+                  class="font-semibold py-2 px-6 rounded-full bg-white border border-[#F76FAF] text-[#F76FAF] hover:text-white hover:bg-[#F76FAF] transition-colors duration-300">En
+                  savoir plus</button>
               </div>
               <div class="flex flex-col gap-5 items-start">
-                <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#F76FAF]">
-                  <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;" alt="Image représentant le e-business" class="opacity-45">
+                <div
+                  class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#F76FAF]">
+                  <img src="./images/hero_landing.png"
+                    style="aspect-ratio: 500/500; object-fit: cover;"
+                    alt="Image représentant le e-business" class="opacity-45">
                 </div>
                 <p class="mt-2 font-bold text-xl">Bachelor Web Design</p>
-                <button class="font-semibold py-2 px-6 rounded-full bg-white border border-[#F76FAF] text-[#F76FAF] hover:text-white hover:bg-[#F76FAF] transition-colors duration-300">En savoir plus</button>
+                <button
+                  class="font-semibold py-2 px-6 rounded-full bg-white border border-[#F76FAF] text-[#F76FAF] hover:text-white hover:bg-[#F76FAF] transition-colors duration-300">En
+                  savoir plus</button>
               </div>
               <div class="flex flex-col gap-5 items-start">
-                <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#FFBD1D]">
-                  <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;" alt="Image représentant le e-business" class="opacity-45">
+                <div
+                  class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#FFBD1D]">
+                  <img src="./images/hero_landing.png"
+                    style="aspect-ratio: 500/500; object-fit: cover;"
+                    alt="Image représentant le e-business" class="opacity-45">
                 </div>
-                <p class="mt-2 font-bold text-xl">Bachelor Cycle web et Multimédia</p>
-                <button class="font-semibold py-2 px-6 rounded-full bg-white border border-[#FFBD1D] text-[#FFBD1D] hover:text-white hover:bg-[#FFBD1D] transition-colors duration-300">En savoir plus</button>
+                <p class="mt-2 font-bold text-xl">Bachelor Cycle web et
+                  Multimédia</p>
+                <button
+                  class="font-semibold py-2 px-6 rounded-full bg-white border border-[#FFBD1D] text-[#FFBD1D] hover:text-white hover:bg-[#FFBD1D] transition-colors duration-300">En
+                  savoir plus</button>
               </div>
               <div class="flex flex-col gap-5 items-start">
-                <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#5199E3]">
-                  <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;" alt="Image représentant le e-business" class="opacity-45">
+                <div
+                  class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#5199E3]">
+                  <img src="./images/hero_landing.png"
+                    style="aspect-ratio: 500/500; object-fit: cover;"
+                    alt="Image représentant le e-business" class="opacity-45">
                 </div>
-                <p class="mt-2 font-bold text-xl"> Bachelor Développement Web</p>
-                <button class="font-semibold py-2 px-6 rounded-full bg-white border border-[#5199E3] text-[#5199E3] hover:text-white hover:bg-[#5199E3] transition-colors duration-300">En savoir plus</button>
+                <p class="mt-2 font-bold text-xl"> Bachelor Développement
+                  Web</p>
+                <button
+                  class="font-semibold py-2 px-6 rounded-full bg-white border border-[#5199E3] text-[#5199E3] hover:text-white hover:bg-[#5199E3] transition-colors duration-300">En
+                  savoir plus</button>
               </div>
               <div class="flex flex-col gap-5 items-start">
-                <div class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#70D467]">
-                  <img src="./images/hero_landing.png" style="aspect-ratio: 500/500; object-fit: cover;" alt="Image représentant le e-business" class="opacity-45">
+                <div
+                  class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#70D467]">
+                  <img src="./images/hero_landing.png"
+                    style="aspect-ratio: 500/500; object-fit: cover;"
+                    alt="Image représentant le e-business" class="opacity-45">
                 </div>
                 <p class="mt-2 font-bold text-xl">MBA Big Data</p>
-                <button class="font-semibold py-2 px-6 rounded-full bg-white border border-[#70D467] text-[#70D467] hover:text-white hover:bg-[#70D467] transition-colors duration-300">En savoir plus</button>
+                <button
+                  class="font-semibold py-2 px-6 rounded-full bg-white border border-[#70D467] text-[#70D467] hover:text-white hover:bg-[#70D467] transition-colors duration-300">En
+                  savoir plus</button>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-  </div>
-  <footer class="bg-[#3D3D3C] text-white py-10">
-    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-16">
-      <div class="w-full md:w-1/3 text-center md:text-left mb-8 md:mb-0 md:mr-8.5">
-        <h2 class="text-2xl font-bold mb-1">Restez au courant</h2>
-        <p class="text-lg mb-4">de nos dernières actualités</p>
-        <form class="flex items-center justify-center md:justify-start">
-          <div class="relative w-full md:w-auto">
-            <input type="email" placeholder="Votre email..."
-              class="mt-2 px-4 py-4 w-full md:w-auto border rounded-full bg-white text-gray-700 focus:outline-none pr-28">
-            <button type="submit"
-              class="absolute right-0 top-0 mt-4 mr-2 px-4 py-2 bg-[#2FB8C5] text-white rounded-full">S’inscrire</button>
-          </div>
-        </form>
-        <p class="mt-4 text-xs text-gray-400 md:w-full lg:w-64">Vous pouvez vous désinscrire à tout moment en cliquant
-          sur le lien situé dans le pied de page de tout e-mail que vous recevez de notre part.</p>
-      </div>
-      <div class="w-full md:w-1/3 text-center md:text-left mb-8 md:mb-0">
-        <ul class="space-y-2 text-white font-medium text-sm">
-          <li class="border-b border-gray-600 pb-2"><a href="#" class="hover:text-gray-400">Emploi</a></li>
-          <li class="border-b border-gray-600 pb-2"><a href="#" class="hover:text-gray-400">Presse</a></li>
-          <li class="border-b border-gray-600 pb-2"><a href="#" class="hover:text-gray-400">Règlement des études</a>
-          </li>
-          <li class="border-b border-gray-600 pb-2"><a href="#" class="hover:text-gray-400">Mentions légales</a></li>
-          <li class="border-b border-gray-600 pb-2"><a href="#" class="hover:text-gray-400">Politique de vie privée</a>
-          </li>
-          <li class="flex items-center gap-2 pt-2"><img src="./images/cadena.svg" alt="Un logo cadena" /><a href="#"
-              class="hover:text-gray-400">Paramètres de confidentialité</a></li>
-        </ul>
-      </div>
-      <div class="w-full md:w-1/3 text-center md:text-left">
-        <ul class="space-y-4 text-gray-400 text-sm">
-          <li><a href="#" class="hover:text-white flex items-center justify-center md:justify-start gap-4">
-              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.2325 0.350098H1.80752C1.3853 0.477595 1.00117 0.707511 0.689299 1.01938C0.377433 1.33124 0.147517 1.71538 0.0200195 2.1376L0.0200195 18.5626C0.147517 18.9848 0.377433 19.369 0.689299 19.6808C1.00117 19.9927 1.3853 20.2226 1.80752 20.3501H10.3575V12.7501H7.60752V10.0126H10.3575V7.8501C10.3444 7.29362 10.4469 6.74048 10.6585 6.22562C10.8701 5.71076 11.1861 5.24539 11.5867 4.8589C11.9873 4.47242 12.4637 4.17322 12.9858 3.98021C13.5079 3.78721 14.0644 3.7046 14.62 3.7376C15.2772 3.73215 15.9338 3.78233 16.5825 3.8876V6.6001H14.6325C13.3825 6.6001 13.145 7.2251 13.145 8.1001V10.0126H16.62L16.17 12.7501H13.145V20.3501H18.2325C18.6547 20.2226 19.0389 19.9927 19.3507 19.6808C19.6626 19.369 19.8925 18.9848 20.02 18.5626V2.1376C19.8925 1.71538 19.6626 1.33124 19.3507 1.01938C19.0389 0.707511 18.6547 0.477595 18.2325 0.350098Z"
-                  fill="white" />
-              </svg>
-              Facebook</a>
-          </li>
-          <li><a href="#" class="hover:text-white flex items-center justify-center md:justify-start gap-4">
-              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M3.77393 0.936035C3.14111 1.18213 2.60596 1.51025 2.0708 2.04541C1.53564 2.57666 1.20752 3.11572 0.961426 3.74463C0.723145 4.354 0.562988 5.05322 0.516113 6.07666C0.469238 7.1001 0.45752 7.42822 0.45752 10.0376C0.45752 12.647 0.469238 12.9751 0.516113 13.9985C0.562988 15.022 0.727051 15.7212 0.961426 16.3306C1.20752 16.9634 1.53564 17.4985 2.0708 18.0337C2.60596 18.5688 3.14111 18.897 3.77393 19.1431C4.3833 19.3813 5.08252 19.5415 6.10596 19.5884C7.1294 19.6353 7.45752 19.647 10.0669 19.647C12.6763 19.647 13.0044 19.6353 14.0278 19.5884C15.0513 19.5415 15.7505 19.3774 16.3599 19.1431C16.9927 18.897 17.5278 18.5688 18.063 18.0337C18.5981 17.4985 18.9263 16.9634 19.1724 16.3306C19.4106 15.7212 19.5708 15.022 19.6177 13.9985C19.6646 12.9751 19.6763 12.647 19.6763 10.0376C19.6763 7.42822 19.6646 7.1001 19.6177 6.07666C19.5708 5.05322 19.4067 4.354 19.1724 3.74463C18.9263 3.11572 18.5981 2.57666 18.0669 2.04541C17.5317 1.51025 16.9966 1.18213 16.3638 0.936035C15.7544 0.697754 15.0552 0.537598 14.0317 0.490723C13.0083 0.443848 12.6802 0.432129 10.0708 0.432129C7.46143 0.432129 7.1333 0.443848 6.10986 0.490723C5.08252 0.533691 4.3833 0.697754 3.77393 0.936035ZM13.9497 2.21729C14.8872 2.26025 15.395 2.4165 15.7349 2.54932C16.1841 2.7251 16.5044 2.93213 16.8403 3.26807C17.1763 3.604 17.3833 3.92432 17.5591 4.37353C17.6919 4.71338 17.8481 5.22119 17.8911 6.15869C17.938 7.17041 17.9458 7.4751 17.9458 10.0415C17.9458 12.6079 17.9341 12.9126 17.8911 13.9243C17.8481 14.8618 17.6919 15.3696 17.5591 15.7095C17.3833 16.1587 17.1763 16.479 16.8403 16.8149C16.5044 17.1509 16.1841 17.3579 15.7349 17.5337C15.395 17.6665 14.8872 17.8228 13.9497 17.8657C12.938 17.9126 12.6333 17.9204 10.0669 17.9204C7.50049 17.9204 7.1958 17.9087 6.18408 17.8657C5.24658 17.8228 4.73877 17.6665 4.39893 17.5337C3.94971 17.3579 3.62939 17.1509 3.29346 16.8149C2.95752 16.479 2.75049 16.1587 2.57471 15.7095C2.44189 15.3696 2.28564 14.8618 2.24268 13.9243C2.1958 12.9126 2.18799 12.6079 2.18799 10.0415C2.18799 7.4751 2.19971 7.17041 2.24268 6.15869C2.28564 5.22119 2.44189 4.71338 2.57471 4.37353C2.75049 3.92432 2.95752 3.604 3.29346 3.26807C3.62939 2.93213 3.94971 2.7251 4.39893 2.54932C4.73877 2.4165 5.24658 2.26025 6.18408 2.21729C7.1958 2.17041 7.50049 2.1626 10.0669 2.1626C12.6333 2.1626 12.938 2.17041 13.9497 2.21729Z"
-                  fill="white" />
-                <path
-                  d="M5.1333 10.0415C5.1333 12.7681 7.34424 14.9751 10.0669 14.9751C12.7896 14.9751 15.0005 12.7642 15.0005 10.0415C15.0005 7.31885 12.7935 5.10791 10.0669 5.10791C7.34033 5.10791 5.1333 7.31494 5.1333 10.0415ZM13.27 10.0415C13.27 11.811 11.8364 13.2446 10.0669 13.2446C8.29736 13.2446 6.86377 11.811 6.86377 10.0415C6.86377 8.27197 8.29736 6.83838 10.0669 6.83838C11.8364 6.83838 13.27 8.27197 13.27 10.0415Z"
-                  fill="white" />
-                <path
-                  d="M15.1997 6.06494C15.8361 6.06494 16.3521 5.54902 16.3521 4.9126C16.3521 4.27618 15.8361 3.76025 15.1997 3.76025C14.5633 3.76025 14.0474 4.27618 14.0474 4.9126C14.0474 5.54902 14.5633 6.06494 15.1997 6.06494Z"
-                  fill="white" />
-              </svg>
-              Instagram</a>
-          </li>
-          <li><a href="#" class="hover:text-white flex items-center justify-center md:justify-start gap-4">
-              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18.5325 0.719944H1.49502C1.10927 0.716591 0.737826 0.865777 0.461563 1.13502C0.1853 1.40426 0.0265991 1.77174 0.0200195 2.15744L0.0200195 19.2824C0.0265991 19.6681 0.1853 20.0356 0.461563 20.3049C0.737826 20.5741 1.10927 20.7233 1.49502 20.7199H18.545C18.9308 20.7233 19.3022 20.5741 19.5785 20.3049C19.8547 20.0356 20.0134 19.6681 20.02 19.2824V2.15744C20.0168 1.96538 19.9757 1.77583 19.8992 1.59964C19.8227 1.42344 19.7122 1.26405 19.574 1.13056C19.4359 0.997069 19.2728 0.892099 19.0941 0.821645C18.9154 0.751191 18.7246 0.716633 18.5325 0.719944ZM5.95752 17.7574H2.98252V8.21994H5.95752V17.7574ZM4.47002 6.96994C4.13048 6.97226 3.79782 6.87432 3.5137 6.6884C3.22958 6.50248 3.00665 6.23685 2.87284 5.92478C2.73903 5.61271 2.7003 5.2681 2.76149 4.93412C2.82268 4.60013 2.98107 4.29163 3.21683 4.04728C3.45258 3.80292 3.7552 3.63357 4.08678 3.56045C4.41836 3.48734 4.76414 3.5137 5.0808 3.63624C5.39746 3.75878 5.67091 3.97205 5.86689 4.24932C6.06288 4.5266 6.17267 4.85554 6.18252 5.19494C6.19092 5.42504 6.15284 5.65446 6.07055 5.8695C5.98826 6.08454 5.86345 6.28077 5.70358 6.44647C5.54372 6.61217 5.35208 6.74393 5.14013 6.83388C4.92818 6.92382 4.70027 6.9701 4.47002 6.96994ZM17.0575 17.8199H14.095V13.1199C14.095 12.0199 14.095 10.6199 12.5575 10.6199C11.02 10.6199 10.7825 11.8699 10.7825 13.1199V17.8324H7.80752V8.21994H10.6575V9.46994C10.9438 8.98359 11.3564 8.58384 11.8516 8.31314C12.3468 8.04243 12.9061 7.91088 13.47 7.93244C16.47 7.93244 17.02 9.90744 17.02 12.4824L17.0575 17.8199Z"
-                  fill="white" />
-              </svg>
-              LinkedIn</a>
-          </li>
-          <li><a href="#" class="hover:text-white flex items-center justify-center md:justify-start gap-4">
-              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M19.6075 5.56039C19.4944 5.1343 19.2707 4.74569 18.959 4.43396C18.6472 4.12224 18.2586 3.89849 17.8325 3.78539C15.2407 3.47029 12.6308 3.32831 10.02 3.36039C7.40932 3.32831 4.79937 3.47029 2.20754 3.78539C1.78145 3.89849 1.39284 4.12224 1.08111 4.43396C0.769387 4.74569 0.545634 5.1343 0.432542 5.56039C0.148073 7.16118 0.0100023 8.78456 0.0200417 10.4104C0.0100023 12.0362 0.148073 13.6596 0.432542 15.2604C0.545634 15.6865 0.769387 16.0751 1.08111 16.3868C1.39284 16.6985 1.78145 16.9223 2.20754 17.0354C4.79937 17.3505 7.40932 17.4925 10.02 17.4604C12.6308 17.4925 15.2407 17.3505 17.8325 17.0354C18.2586 16.9223 18.6472 16.6985 18.959 16.3868C19.2707 16.0751 19.4944 15.6865 19.6075 15.2604C19.892 13.6596 20.0301 12.0362 20.02 10.4104C20.0301 8.78456 19.892 7.16118 19.6075 5.56039ZM7.97004 13.3854V7.43539L13.2075 10.4104L7.97004 13.3854Z"
-                  fill="white" />
-              </svg>
-              YouTube</a>
-          </li>
-        </ul>
-      </div>
+
+        </section>
+      </main>
+
     </div>
-  </footer>
 
+    <!-- FOOTER SECTION -->
 
-</body>
+    <footer class="bg-[#3D3D3C] text-white py-10  ">
+      <div
+        class="container mx-auto px-4 flex flex-col md:flex-row justify-center items-start md:items-center gap-10">
+        <div
+          class="w-full md:w-[30%] text-center md:text-left mb-8 md:mb-0 md:mr-8.5">
+          <h2 class="text-2xl font-bold mb-1">Restez au courant</h2>
+          <p class="text-lg mb-4">de nos dernières actualités</p>
+          <form class="flex items-center justify-center md:justify-start">
+            <div class="relative w-full md:w-auto">
+              <input type="email" placeholder="Votre email..."
+                class="mt-2 px-4 py-4 w-full md:w-auto border rounded-full bg-white text-gray-700 focus:outline-none pr-28">
+              <button type="submit"
+                class="absolute right-0 top-0 mt-4 mr-2 px-4 py-2 bg-[#2FB8C5] text-white rounded-full">S’inscrire</button>
+            </div>
+          </form>
+          <p class="mt-4 text-xs text-gray-400 md:w-full lg:w-64">Vous pouvez
+            vous désinscrire à tout moment en cliquant
+            sur le lien situé dans le pied de page de tout e-mail que vous
+            recevez de notre part.</p>
+        </div>
+        <div class="w-full md:w-1/3 text-start md:text-left mb-8 md:mb-0">
+          <ul class="space-y-2 text-white font-medium text-sm">
+            <li class="border-b border-gray-600 pb-2"><a href="#"
+                class="hover:text-gray-400">Formations</a></li>
+            <li class="border-b border-gray-600 pb-2"><a href="#"
+                class="hover:text-gray-400">Campus</a></li>
+            <li class="border-b border-gray-600 pb-2"><a href="#"
+                class="hover:text-gray-400">Documentations</a>
+            </li>
+            <li class="border-b border-gray-600 pb-2"><a href="#"
+                class="hover:text-gray-400">Mentions légales</a></li>
+            <li class="border-b border-gray-600 pb-2"><a href="#"
+                class="hover:text-gray-400">Politique de vie privée</a>
+            </li>
+            <li class="flex items-center gap-2 pt-2"><a href="#"
+                class="hover:text-gray-400">Paramètres de
+                confidentialité</a></li>
+          </ul>
+        </div>
+        <div
+          class="w-full md:w-[10%] text-start md:text-left flex md:flex-col flex-row gap-8 justify-center">
+          <ul class="space-y-4 text-gray-400 text-sm">
+            <li><a href="#"
+                class="hover:text-white flex items-center justify-center md:justify-start gap-4">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.2325 0.350098H1.80752C1.3853 0.477595 1.00117 0.707511 0.689299 1.01938C0.377433 1.33124 0.147517 1.71538 0.0200195 2.1376L0.0200195 18.5626C0.147517 18.9848 0.377433 19.369 0.689299 19.6808C1.00117 19.9927 1.3853 20.2226 1.80752 20.3501H10.3575V12.7501H7.60752V10.0126H10.3575V7.8501C10.3444 7.29362 10.4469 6.74048 10.6585 6.22562C10.8701 5.71076 11.1861 5.24539 11.5867 4.8589C11.9873 4.47242 12.4637 4.17322 12.9858 3.98021C13.5079 3.78721 14.0644 3.7046 14.62 3.7376C15.2772 3.73215 15.9338 3.78233 16.5825 3.8876V6.6001H14.6325C13.3825 6.6001 13.145 7.2251 13.145 8.1001V10.0126H16.62L16.17 12.7501H13.145V20.3501H18.2325C18.6547 20.2226 19.0389 19.9927 19.3507 19.6808C19.6626 19.369 19.8925 18.9848 20.02 18.5626V2.1376C19.8925 1.71538 19.6626 1.33124 19.3507 1.01938C19.0389 0.707511 18.6547 0.477595 18.2325 0.350098Z"
+                    fill="white" />
+                </svg>
+                Facebook</a>
+            </li>
+            <li><a href="#"
+                class="hover:text-white flex items-center justify-center md:justify-start gap-4">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M3.77393 0.936035C3.14111 1.18213 2.60596 1.51025 2.0708 2.04541C1.53564 2.57666 1.20752 3.11572 0.961426 3.74463C0.723145 4.354 0.562988 5.05322 0.516113 6.07666C0.469238 7.1001 0.45752 7.42822 0.45752 10.0376C0.45752 12.647 0.469238 12.9751 0.516113 13.9985C0.562988 15.022 0.727051 15.7212 0.961426 16.3306C1.20752 16.9634 1.53564 17.4985 2.0708 18.0337C2.60596 18.5688 3.14111 18.897 3.77393 19.1431C4.3833 19.3813 5.08252 19.5415 6.10596 19.5884C7.1294 19.6353 7.45752 19.647 10.0669 19.647C12.6763 19.647 13.0044 19.6353 14.0278 19.5884C15.0513 19.5415 15.7505 19.3774 16.3599 19.1431C16.9927 18.897 17.5278 18.5688 18.063 18.0337C18.5981 17.4985 18.9263 16.9634 19.1724 16.3306C19.4106 15.7212 19.5708 15.022 19.6177 13.9985C19.6646 12.9751 19.6763 12.647 19.6763 10.0376C19.6763 7.42822 19.6646 7.1001 19.6177 6.07666C19.5708 5.05322 19.4067 4.354 19.1724 3.74463C18.9263 3.11572 18.5981 2.57666 18.0669 2.04541C17.5317 1.51025 16.9966 1.18213 16.3638 0.936035C15.7544 0.697754 15.0552 0.537598 14.0317 0.490723C13.0083 0.443848 12.6802 0.432129 10.0708 0.432129C7.46143 0.432129 7.1333 0.443848 6.10986 0.490723C5.08252 0.533691 4.3833 0.697754 3.77393 0.936035ZM13.9497 2.21729C14.8872 2.26025 15.395 2.4165 15.7349 2.54932C16.1841 2.7251 16.5044 2.93213 16.8403 3.26807C17.1763 3.604 17.3833 3.92432 17.5591 4.37353C17.6919 4.71338 17.8481 5.22119 17.8911 6.15869C17.938 7.17041 17.9458 7.4751 17.9458 10.0415C17.9458 12.6079 17.9341 12.9126 17.8911 13.9243C17.8481 14.8618 17.6919 15.3696 17.5591 15.7095C17.3833 16.1587 17.1763 16.479 16.8403 16.8149C16.5044 17.1509 16.1841 17.3579 15.7349 17.5337C15.395 17.6665 14.8872 17.8228 13.9497 17.8657C12.938 17.9126 12.6333 17.9204 10.0669 17.9204C7.50049 17.9204 7.1958 17.9087 6.18408 17.8657C5.24658 17.8228 4.73877 17.6665 4.39893 17.5337C3.94971 17.3579 3.62939 17.1509 3.29346 16.8149C2.95752 16.479 2.75049 16.1587 2.57471 15.7095C2.44189 15.3696 2.28564 14.8618 2.24268 13.9243C2.1958 12.9126 2.18799 12.6079 2.18799 10.0415C2.18799 7.4751 2.19971 7.17041 2.24268 6.15869C2.28564 5.22119 2.44189 4.71338 2.57471 4.37353C2.75049 3.92432 2.95752 3.604 3.29346 3.26807C3.62939 2.93213 3.94971 2.7251 4.39893 2.54932C4.73877 2.4165 5.24658 2.26025 6.18408 2.21729C7.1958 2.17041 7.50049 2.1626 10.0669 2.1626C12.6333 2.1626 12.938 2.17041 13.9497 2.21729Z"
+                    fill="white" />
+                  <path
+                    d="M5.1333 10.0415C5.1333 12.7681 7.34424 14.9751 10.0669 14.9751C12.7896 14.9751 15.0005 12.7642 15.0005 10.0415C15.0005 7.31885 12.7935 5.10791 10.0669 5.10791C7.34033 5.10791 5.1333 7.31494 5.1333 10.0415ZM13.27 10.0415C13.27 11.811 11.8364 13.2446 10.0669 13.2446C8.29736 13.2446 6.86377 11.811 6.86377 10.0415C6.86377 8.27197 8.29736 6.83838 10.0669 6.83838C11.8364 6.83838 13.27 8.27197 13.27 10.0415Z"
+                    fill="white" />
+                  <path
+                    d="M15.1997 6.06494C15.8361 6.06494 16.3521 5.54902 16.3521 4.9126C16.3521 4.27618 15.8361 3.76025 15.1997 3.76025C14.5633 3.76025 14.0474 4.27618 14.0474 4.9126C14.0474 5.54902 14.5633 6.06494 15.1997 6.06494Z"
+                    fill="white" />
+                </svg>
+                Instagram</a>
+            </li>
 
-</html>
+          </ul>
+          <ul class="space-y-4 text-gray-400 text-sm">
+            <li><a href="#"
+                class="hover:text-white flex items-center justify-center md:justify-start gap-4">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.5325 0.719944H1.49502C1.10927 0.716591 0.737826 0.865777 0.461563 1.13502C0.1853 1.40426 0.0265991 1.77174 0.0200195 2.15744L0.0200195 19.2824C0.0265991 19.6681 0.1853 20.0356 0.461563 20.3049C0.737826 20.5741 1.10927 20.7233 1.49502 20.7199H18.545C18.9308 20.7233 19.3022 20.5741 19.5785 20.3049C19.8547 20.0356 20.0134 19.6681 20.02 19.2824V2.15744C20.0168 1.96538 19.9757 1.77583 19.8992 1.59964C19.8227 1.42344 19.7122 1.26405 19.574 1.13056C19.4359 0.997069 19.2728 0.892099 19.0941 0.821645C18.9154 0.751191 18.7246 0.716633 18.5325 0.719944ZM5.95752 17.7574H2.98252V8.21994H5.95752V17.7574ZM4.47002 6.96994C4.13048 6.97226 3.79782 6.87432 3.5137 6.6884C3.22958 6.50248 3.00665 6.23685 2.87284 5.92478C2.73903 5.61271 2.7003 5.2681 2.76149 4.93412C2.82268 4.60013 2.98107 4.29163 3.21683 4.04728C3.45258 3.80292 3.7552 3.63357 4.08678 3.56045C4.41836 3.48734 4.76414 3.5137 5.0808 3.63624C5.39746 3.75878 5.67091 3.97205 5.86689 4.24932C6.06288 4.5266 6.17267 4.85554 6.18252 5.19494C6.19092 5.42504 6.15284 5.65446 6.07055 5.8695C5.98826 6.08454 5.86345 6.28077 5.70358 6.44647C5.54372 6.61217 5.35208 6.74393 5.14013 6.83388C4.92818 6.92382 4.70027 6.9701 4.47002 6.96994ZM17.0575 17.8199H14.095V13.1199C14.095 12.0199 14.095 10.6199 12.5575 10.6199C11.02 10.6199 10.7825 11.8699 10.7825 13.1199V17.8324H7.80752V8.21994H10.6575V9.46994C10.9438 8.98359 11.3564 8.58384 11.8516 8.31314C12.3468 8.04243 12.9061 7.91088 13.47 7.93244C16.47 7.93244 17.02 9.90744 17.02 12.4824L17.0575 17.8199Z"
+                    fill="white" />
+                </svg>
+                LinkedIn</a>
+            </li>
+            <li><a href="#"
+                class="hover:text-white flex items-center justify-center md:justify-start gap-4">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M19.6075 5.56039C19.4944 5.1343 19.2707 4.74569 18.959 4.43396C18.6472 4.12224 18.2586 3.89849 17.8325 3.78539C15.2407 3.47029 12.6308 3.32831 10.02 3.36039C7.40932 3.32831 4.79937 3.47029 2.20754 3.78539C1.78145 3.89849 1.39284 4.12224 1.08111 4.43396C0.769387 4.74569 0.545634 5.1343 0.432542 5.56039C0.148073 7.16118 0.0100023 8.78456 0.0200417 10.4104C0.0100023 12.0362 0.148073 13.6596 0.432542 15.2604C0.545634 15.6865 0.769387 16.0751 1.08111 16.3868C1.39284 16.6985 1.78145 16.9223 2.20754 17.0354C4.79937 17.3505 7.40932 17.4925 10.02 17.4604C12.6308 17.4925 15.2407 17.3505 17.8325 17.0354C18.2586 16.9223 18.6472 16.6985 18.959 16.3868C19.2707 16.0751 19.4944 15.6865 19.6075 15.2604C19.892 13.6596 20.0301 12.0362 20.02 10.4104C20.0301 8.78456 19.892 7.16118 19.6075 5.56039ZM7.97004 13.3854V7.43539L13.2075 10.4104L7.97004 13.3854Z"
+                    fill="white" />
+                </svg>
+                YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-
-
-
-
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Section Partenaires</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body class="bg-gray-100">
-
-</body>
+  </body>
 
 </html>
