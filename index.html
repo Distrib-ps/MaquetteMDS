@@ -9,8 +9,8 @@
   </head>
 
   <body class>
-    <div class="mx-12">
-      <header class="my-4">
+    <div class="mx-5">
+      <header class="my-4  bg-white">
         <div class="hidden md:flex justify-between py-4 text-sm">
           <p class="text-slate-600">Espace étudiant :</p>
           <nav class="flex flex-row justify-center items-center gap-12">
@@ -40,9 +40,9 @@
             <nav
               class="flex justify-center items-center border-r border-slate-500/50 px-8">
               <ul class="flex flex-row gap-12 uppercase text-base">
-                <li><a href="#"
+                <li><a href="index.html"
                     class=" hover:underline hover:cursor-pointer">Accueil</a></li>
-                <li><a href="#"
+                <li><a href="formations.html"
                     class=" hover:underline hover:cursor-pointer">Formations</a></li>
                 <li><a href="#" class=" hover:underline hover:cursor-pointer">My
                     Digital School</a></li>
@@ -60,21 +60,21 @@
           <img src="./images/hamburger.svg" alt="Menu" class="block md:hidden">
         </div>
       </header>
-      <main class="max-w-[1980px] m-auto">
+      <main class="md:max-w-[1980px] w-full m-auto">
         <section class="w-full m-auto flex ">
-          <div class="hidden md:flex flex-col gap-4 mt-32">
-            <img src="./images/Facenook_gray.svg" alt="Logo Facebook"
-              width="16" height="16">
+          <div class="hidden md:flex flex-col gap-4 mt-28 fixed">
+            <img src="./images/Facenook_gray.svg" alt="Logo Facebook" width="16"
+              height="16">
             <img src="./images/Instagram_gray.svg" alt="Logo Instagram"
               width="16" height="16">
-            <img src="./images/LinkedIn_gray.svg" alt="Logo LinkedIn"
-              width="16" height="16">
+            <img src="./images/LinkedIn_gray.svg" alt="Logo LinkedIn" width="16"
+              height="16">
             <img src="./images/YouTube_gray.svg" alt="Logo YouTube" width="16"
               height="16">
           </div>
-          <div class="flex w-10/12 items-start justify-center m-auto">
+          <div class="flex w-full md:w-10/12 items-start justify-center m-auto">
             <div class="flex flex-col">
-              <div class="flex flex-row justify-between mt-5 gap-5">
+              <div class="flex flex-row justify-between md:mt-5 gap-5">
                 <div
                   class="aspect-square rounded-[40px] overflow-hidden w-full md:w-auto shadow-[#2FB8C5] shadow-inner">
                   <img src="./images/hero_landing.jpg"
@@ -83,9 +83,9 @@
                     width="600" height="600">
                 </div>
                 <div
-                  class="absolute top-80 left-16 md:static md:flex flex-col gap-10 items-start my-auto w-[45%]">
+                  class="absolute top-[40%] md:left-16  left-10 md:static md:flex flex-col gap-10 items-start my-auto w-full md:w-[45%]">
                   <h1
-                    class="text-white md:text-black font-bold text-2xl md:text-5xl uppercase">L'école
+                    class="text-white md:text-black font-bold text-xl md:text-5xl uppercase ">L'école
                     des <br> métiers du <span
                       class="md:text-[#2FB8C5]">digital</span></h1>
                   <p class="hidden md:block max-w-md">Lorem Ipsum is simply
@@ -95,7 +95,7 @@
                     1500s, when an unknown printer took a galley of
                     type and scrambled it to make a type specimen book.</p>
                   <button
-                    class="mt-4 md:mt-0 bg-[#2FB8C5] py-2 px-8 rounded-full text-white text-base font-semibold hover:bg-[#2FB8C5]/80">Rejoignez-nous
+                    class="mt-4 md:mt-0 bg-[#2FB8C5] py-2 md:px-8 px-6 rounded-full text-white text-base font-semibold hover:bg-[#2FB8C5]/80">Rejoignez-nous
                     !</button>
                 </div>
               </div>
@@ -104,37 +104,42 @@
                 <div
                   class="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5 mt-5 text-center">
                   <div
-                    class="flex flex-col justify-center items-center bg-[#D5D5D5] p-12 rounded-[25px]  md:w-[] md:h-72">
+                    class="flex flex-col justify-center items-center bg-[#E7E7E7] md:p-12 p-5 pb-7 md:pb-0 rounded-[25px]  md:w-[] md:h-72">
                     <span
-                      class="text-[#2FB8C5] text-6xl font-bold mb-3">15</span>
+                      class="text-[#2FB8C5] md:text-6xl text-4xl font-bold md:mb-3 mb-1">15</span>
                     <p
-                      class="text-[#3D3D3C] text-center text-xl leading-6">Certifications
+                      class="text-[#3D3D3C] text-center md:text-xl text-sm md:leading-6 leading-4">Certifications
                       professionnelles</p>
                   </div>
 
                   <div
-                    class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-[25px] md:w-72 md:h-72">
+                    class="flex flex-col items-center justify-center bg-[#E7E7E7] md:p-12 p-5 pb-7 md:pb-0 rounded-[25px] md:w-72 md:h-72">
                     <span
-                      class="text-[#2FB8C5] text-6xl font-bold mb-3">22</span>
-                    <p class="text-[#3D3D3C] text-xl leading-6">Labels et<br>
+                      class="text-[#2FB8C5] md:text-6xl text-4xl font-bold md:mb-3 mb-1">22</span>
+                    <p
+                      class="text-[#3D3D3C] md:text-xl text-sm md:leading-6 leading-4">Labels
+                      et<br>
                       certifications</p>
                   </div>
 
                   <div
-                    class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-[25px] md:w-72 md:h-72">
+                    class="flex flex-col items-center justify-center bg-[#E7E7E7] md:p-12 p-5 pb-7 md:pb-0 rounded-[25px] md:w-72 md:h-72">
                     <span
-                      class="text-[#2FB8C5] text-6xl font-bold mb-3">65<span
-                        class=" text-[#2FB8C5] text-3xl font-bold">%</span></span>
-                    <p class="text-[#3D3D3C] text-xl leading-6">Taux d’insertion
+                      class="text-[#2FB8C5] md:text-6xl text-4xl font-bold md:mb-3 mb-1">65<span
+                        class=" text-[#2FB8C5] md:text-3xl text-xl font-bold">%</span></span>
+                    <p
+                      class="text-[#3D3D3C] md:text-xl text-sm md:leading-6 leading-4">Taux
+                      d’insertion
                       post
                       diplôme</p>
                   </div>
 
                   <div
-                    class="flex flex-col items-center justify-center bg-[#D5D5D5] p-12 rounded-[25px] md:w-72 md:h-72">
+                    class="flex flex-col items-center justify-center bg-[#E7E7E7] md:p-12 p-5 pb-7 md:pb-0 rounded-[25px] md:w-72 md:h-72">
                     <span
-                      class="text-[#2FB8C5] text-6xl font-bold mb-3">2200</span>
-                    <p class="text-[#3D3D3C] text-xl leading-6">Entreprises<br>
+                      class="text-[#2FB8C5] md:text-6xl text-4xl font-bold md:mb-3 mb-1">2200</span>
+                    <p
+                      class="text-[#3D3D3C] md:text-xl text-sm md:leading-6 leading-4">Entreprises<br>
                       partenaires</p>
                   </div>
                 </div>
@@ -145,143 +150,167 @@
 
         </section>
 
-        <section class="flex flex-col py-10 mt-28">
-          <div class="flex flex-col items-start justify-center z-20 gap-8 px-8">
-            <h2 class="text-4xl">
-              <span class="italic">NOS</span>
-              <br>
-              <span class="font-bold">SECTEURS</span>
-            </h2>
-            <button
-              class="hidden md:block px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir</button>
-          </div>
+        <section
+          class="flex flex-col py-10 md:mt-14 md:w-10/12 md:m-auto w-full">
           <div
-            class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 w-full font-semibold mt-4">
-            <div class>
-              <div
-                class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#FFBD1D]">
-                <img src="./images/e-business.png"
-                  alt="Image représentant le e-business" class="opacity-45">
-              </div>
-              <p class="text-center mt-2">E-business</p>
+            class="flex lg:flex-row flex-col items-start justify-center z-20 gap-8 md:px-8 ">
+            <div
+              class="flex flex-col items-start md:justify-center justify-start z-20 gap-8 md:px-8 md:sticky md:top-0">
+              <h2 class="md:text-6xl text-2xl">
+                <span class="italic">NOS</span>
+                <br class="hidden md:inline">
+                <span class="font-bold">SECTEURS</span>
+              </h2>
+              <button
+                class="hidden md:block bg-[#2FB8C5] text-white rounded-full text-base py-2 px-8 font-bold hover:bg-[#2FB8C5]/80">Découvrir</button>
             </div>
+            <div
+              class="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-8 w-full font-semibold md:mt-24">
+              <a href="formations.html" class="group">
+                <div
+                  class="aspect-square rounded-[30px] overflow-hidden cursor-pointer bg-[#70D467] group-hover:bg-[#59c4cd] duration-300">
+                  <img src="./images/e-business.png"
+                    alt="Image représentant le e-business" class="opacity-45">
+                </div>
+                <p
+                  class="text-center mt-2 md:text-2xl text-sm leading-4">e-Business</p>
+              </a>
 
-            <div class>
-              <div
-                class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#F76FAF]">
-                <img src="./images/webdesign.png"
-                  alt="Image représentant le e-business" class="opacity-45">
-              </div>
-              <p class="text-center mt-2">Création numérique et web-design</p>
-            </div>
+              <a href="formations.html" class="group">
+                <div
+                  class="aspect-square rounded-[30px] overflow-hidden cursor-pointer bg-[#F76FAF] group-hover:bg-[#59c4cd] duration-300">
+                  <img src="./images/webdesign.png"
+                    alt="Image représentant le e-business" class="opacity-45">
+                </div>
+                <p
+                  class="text-center mt-2 md:text-2xl text-sm leading-4">Création
+                  numérique et
+                  webdesign</p>
+              </a>
 
-            <div class>
-              <div
-                class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#70D467]">
-                <img src="./images/webmarketing.png"
-                  alt="Image représentant le e-business" class="opacity-45">
-              </div>
-              <p class="text-center mt-2">Marketing digitale</p>
-            </div>
+              <a href="formations.html" class="group">
+                <div
+                  class="aspect-square rounded-[30px] overflow-hidden cursor-pointer bg-[#FFBD1D] group-hover:bg-[#59c4cd] duration-300">
+                  <img src="./images/webmarketing.png"
+                    alt="Image représentant le e-business" class="opacity-45">
+                </div>
+                <p
+                  class="text-center mt-2 md:text-2xl text-sm leading-4">Marketing
+                  digital</p>
+              </a>
 
-            <div class>
-              <div
-                class="aspect-square rounded-xl overflow-hidden cursor-pointer bg-[#5199E3]">
-                <img src="./images/webdevelopper.png"
-                  alt="Image représentant le e-business" class="opacity-45">
-              </div>
-              <p class="text-center mt-2">Développement web</p>
+              <a href="formations.html" class="group">
+                <div
+                  class="aspect-square rounded-[30px] overflow-hidden cursor-pointer bg-[#5199E3] group-hover:bg-[#59c4cd] duration-300">
+                  <img src="./images/webdevelopper.png"
+                    alt="Image représentant le e-business" class="opacity-45">
+                </div>
+                <p
+                  class="text-center mt-2 md:text-2xl text-sm leading-4">Développement
+                  web</p>
+              </a>
+
             </div>
           </div>
+
         </section>
 
-        <section class="flex flex-col items-center justify-center py-10">
-          <div class="container mx-auto px-4">
+        <section
+          class="flex flex-col items-center justify-center md:py-14 py-0 md:w-10/12 w-full m-auto">
+          <div class="container mx-auto md:px-4 px-0">
             <div class="flex flex-col md:flex-row gap-16">
 
               <!-- NOS CAMPUS Section -->
               <div
-                class="order-1 md:order-2 md:bg-[#EAF9F9] p-8 rounded-md w-full md:w-1/2">
-                <div class="relative mb-10">
-                  <h2 class="text-4xl">
+                class="order-1 md:order-2 md:bg-[#EAF9F9] md:p-8 p-0 rounded-md w-full md:w-[40%]">
+                <div class="relative md:mb-10 mb-8">
+                  <h2 class="md:text-6xl text-2xl">
                     <span class="italic">NOS</span>
                     <br class="hidden md:inline">
                     <span class="font-bold">CAMPUS</span>
                   </h2>
                 </div>
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+                <div class="flex flex-wrap gap-2 pb-8">
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Paris</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Paris</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Toulouse</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Toulouse</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Grenoble</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Grenoble</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Lyon</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Lyon</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Nice</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Nice</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Montpellier</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Montpellier</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Annecy</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Annecy</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Melun</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Melun</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">Lille</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Lille</span>
                   <span
-                    class="px-4 py-2 rounded-full text-center border border-black">...</span>
+                    class="px-8 py-2 rounded-full text-center border border-black">Bordeaux</span>
+                  <span
+                    class="px-8 py-2 rounded-full text-center border border-black">Vannes</span>
+                  <span
+                    class="px-8 py-2 rounded-full text-center border border-black">Caen</span>
+                  <span
+                    class="px-8 py-2 rounded-full text-center border border-black">Annecy</span>
+                  <span
+                    class="px-8 py-2 rounded-full text-center border border-black">...</span>
                 </div>
                 <div class="flex justify-center md:justify-start">
                   <button
-                    class="px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir
+                    class="px-8 py-2 bg-[#2FB8C5] text-white rounded-full hover:bg-[#2FB8C5]/80 font-bold">Découvrir
                     les campus</button>
                 </div>
               </div>
 
               <!-- NOTRE ÉQUIPE Section -->
-              <div class="order-2 md:order-1 w-full md:w-1/2">
-                <div class="relative mb-10">
-                  <h2 class="text-4xl">
+              <div class="order-2 md:order-1 w-full md:w-[60%]">
+                <div class="relative md:mb-10 mb-8">
+                  <h2 class="md:text-6xl text-2xl">
                     <span class="italic">NOTRE</span>
-                    <br>
+                    <br class="hidden md:inline">
                     <span class="font-bold">ÉQUIPE</span>
                   </h2>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8 gap-5">
                   <div
-                    class="order-last md:order-first flex items-center gap-4 p-4 bg-white rounded-md shadow-lg">
+                    class="order-last md:order-first flex items-center gap-4 p-4 bg-[#E7E7E7] rounded-md">
                     <img src="./images/profile1.png" alt="Emilie Mory"
                       class="w-16 h-16 rounded-full">
                     <div>
                       <h3 class="font-bold">Emilie Mory</h3>
                       <p>Lorem ipsum description etc Lorem ipsum description
-                        zetfz edefzafzefza.</p>
+                        zetf.</p>
                     </div>
                   </div>
                   <div
-                    class="flex items-center gap-4 p-4 bg-white rounded-md shadow-lg">
+                    class="flex items-center gap-4 p-4 bg-[#E7E7E7] rounded-md">
                     <img src="./images/profile2.png" alt="Sabine Debacker"
                       class="w-16 h-16 rounded-full">
                     <div>
                       <h3 class="font-bold">Sabine Debacker</h3>
                       <p>Lorem ipsum description etc Lorem ipsum description
-                        zetfz edefzafzefza.</p>
+                        zetfz.</p>
                     </div>
                   </div>
                   <div
-                    class="flex items-center gap-4 p-4 bg-white rounded-md shadow-lg">
+                    class="flex items-center gap-4 p-4 bg-[#E7E7E7] rounded-md">
                     <img src="./images/profile3.png" alt="Cyril Marcq"
                       class="w-16 h-16 rounded-full">
                     <div>
                       <h3 class="font-bold">Cyril Marcq</h3>
                       <p>Lorem ipsum description etc Lorem ipsum description
-                        zetfz edefzafzefza.</p>
+                        zetfz.</p>
                     </div>
                   </div>
                 </div>
                 <div class="flex justify-center md:justify-start mt-8">
                   <button
-                    class="px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir
+                    class="px-8 py-2 bg-[#2FB8C5] text-white rounded-full font-bold hover:bg-[#2FB8C5]/80">Découvrir
                     toute l'équipe</button>
                 </div>
               </div>
@@ -290,27 +319,29 @@
           </div>
         </section>
 
-        <section class="flex flex-col py-10 mt-28">
-          <div class="flex flex-col items-start justify-center gap-8 z-20 px-8">
-            <h2 class="text-4xl">
+        <section
+          class="flex flex-col py-0 to-[#EAF9F9] bg-gradient-to-b from-white from-20% via-white via-5% to white to-5% w-full md:w-10/12 m-auto">
+          <div
+            class="flex flex-col items-start justify-center gap-8 z-20 md:px-8 px-0 md:py-0 py-10">
+            <h2 class="md:text-6xl text-2xl">
               <span class="italic">NOS</span>
-              <br>
+              <br class="hidden md:inline">
               <span class="font-bold">PARTENAIRES</span>
             </h2>
             <button
-              class=" px-4 py-2 bg-[#2FB8C5] text-white rounded-full">Découvrir</button>
+              class=" px-8 py-2 bg-[#2FB8C5] text-white rounded-full font- hidden md:block">Découvrir</button>
           </div>
           <div
-            class="relative -top-28 mt-4 p-8 bg-[#EAF9F9] rounded-md flex items-center w-full h-56"></div>
+            class="relative -top-28 mt-4 p-8 rounded-md flex items-center w-full h-56"></div>
         </section>
       </main>
     </div>
 
-    <footer class="bg-[#3D3D3C] text-white py-10">
+    <footer class="bg-[#3D3D3C] text-white py-10  ">
       <div
-        class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-16">
+        class="container mx-auto px-4 flex flex-col md:flex-row justify-center items-start md:items-center gap-10">
         <div
-          class="w-full md:w-1/3 text-center md:text-left mb-8 md:mb-0 md:mr-8.5">
+          class="w-full md:w-[30%] text-center md:text-left mb-8 md:mb-0 md:mr-8.5">
           <h2 class="text-2xl font-bold mb-1">Restez au courant</h2>
           <p class="text-lg mb-4">de nos dernières actualités</p>
           <form class="flex items-center justify-center md:justify-start">
@@ -326,27 +357,27 @@
             sur le lien situé dans le pied de page de tout e-mail que vous
             recevez de notre part.</p>
         </div>
-        <div class="w-full md:w-1/3 text-center md:text-left mb-8 md:mb-0">
+        <div class="w-full md:w-1/3 text-start md:text-left mb-8 md:mb-0">
           <ul class="space-y-2 text-white font-medium text-sm">
             <li class="border-b border-gray-600 pb-2"><a href="#"
-                class="hover:text-gray-400">Emploi</a></li>
+                class="hover:text-gray-400">Formations</a></li>
             <li class="border-b border-gray-600 pb-2"><a href="#"
-                class="hover:text-gray-400">Presse</a></li>
+                class="hover:text-gray-400">Campus</a></li>
             <li class="border-b border-gray-600 pb-2"><a href="#"
-                class="hover:text-gray-400">Règlement des études</a>
+                class="hover:text-gray-400">Documentations</a>
             </li>
             <li class="border-b border-gray-600 pb-2"><a href="#"
                 class="hover:text-gray-400">Mentions légales</a></li>
             <li class="border-b border-gray-600 pb-2"><a href="#"
                 class="hover:text-gray-400">Politique de vie privée</a>
             </li>
-            <li class="flex items-center gap-2 pt-2"><img
-                src="./images/cadena.svg" alt="Un logo cadena" /><a href="#"
+            <li class="flex items-center gap-2 pt-2"><a href="#"
                 class="hover:text-gray-400">Paramètres de
                 confidentialité</a></li>
           </ul>
         </div>
-        <div class="w-full md:w-1/3 text-center md:text-left">
+        <div
+          class="w-full md:w-[10%] text-start md:text-left flex gap-8 justify-center">
           <ul class="space-y-4 text-gray-400 text-sm">
             <li><a href="#"
                 class="hover:text-white flex items-center justify-center md:justify-start gap-4">
@@ -374,6 +405,9 @@
                 </svg>
                 Instagram</a>
             </li>
+
+          </ul>
+          <ul class="space-y-4 text-gray-400 text-sm">
             <li><a href="#"
                 class="hover:text-white flex items-center justify-center md:justify-start gap-4">
                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
